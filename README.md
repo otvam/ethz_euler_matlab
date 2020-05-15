@@ -54,7 +54,7 @@
     * password: your NETHZ password
 * You need to be inside the ETH network to connect (or use the VPN)
 
-## MATLAB Parallel Code Example
+## MATLAB parallel code example
 
 1. Copy the folder "euler_matlab_example" to EULER (using the mapped network drive)
 2. Get a remote console on the EULER login node (using the SSH software)
@@ -68,7 +68,7 @@
     * You will get an email when the job starts, finishes, or crashes
 7. Copy the results (using the mapped network drive)
 
-## Useful Commands
+## Useful commands
 
 ```
 bsub        submit a job
@@ -83,7 +83,7 @@ lsf_load    show the CPU load of all nodes used by a job
 bkill       kill a job
 ```
 
-## More Information
+## Going further
 
 * https://scicomp.ethz.ch - EULER documentation
 * https://scicomp.ethz.ch/lsf_submission_line_advisor/ - script for generating EULER commands
