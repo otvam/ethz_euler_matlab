@@ -1,23 +1,24 @@
-# Tutorial for the EULER cluster with MATLAB
+# Tutorial for the ETHZ EULER cluster with MATLAB
 
 ## Advantages of EULER vs. a powerful workstation/server
 
-* Professionally managed high performance computing cluster
-* Computing power is much higher
-* Reliability is much higher
-* You are not competing with other PES people for the ressources
-* Usable with MATLAB and COMSOL (and many more other softwares)
+* Professionally managed **high performance computing cluster**
+* **Computing power** is much higher
+* **Batching system** for managing the jobs
+* **Reliability** is much higher
+* You are not competing with other people for the ressources
+* Usable with Python, MPI, MATLAB, COMSOL, Maxwell (and many more other softwares)
 * A lot of different version of the softwares are available
 
 ## Differences between EULER vs. a powerful workstation/server
 
 * EULER is a batching system
-    * You say: "I have a job and I want x CPUs with y GB of RAM for z hours"
+    * You say: "I have a job and I want x CPU cores with y GB of RAM for z hours"
     * You submit your job and it goes in a waiting queue
     * When it is your turn, your job is being processed
 * EULER does not support GUI
-    * No plots in your MATLAB code
-    * No GUI for COMSOL
+    * No plots for MATLAB, Python, etc.
+    * No GUI for COMSOL, Maxwell, etc.
     * If you are an advanced user, GUI is possible with X11 forwarding
 
 ## Install software
@@ -25,6 +26,7 @@
 * For MS Windows users:
     * Putty: https://www.putty.org/
     * SFTP Drive v2: https://www.nsoftware.com/sftp/drive/
+	* WinSCP: https://winscp.net/eng/
 * For Linux users:
     * Install "ssh" (install the package)
     * Install "sshfs" (install the package)
@@ -34,22 +36,23 @@
 * Remote access to the cluster (to start the job, get the results, etc.):
     * If you are using MS Windows, use "putty" software.
     * If you are using Linux, use "ssh" command.
-
 * Login info:
     * address: euler.ethz.ch
     * login: your NETHZ login
     * password: your NETHZ password
+* If you are an advanced user, you can replace the password with SSH keys
+* You need to be inside the ETH network to connect (or use the VPN)
 
 ## Map you EULER drive as a network drive
 
 * Mount the EULER filesystem as a remote drive:
-    * If you are using MS Windows, use "SFTP Drive v2" software.
+    * If you are using MS Windows, use "SFTP Drive v2" or "WinSCP" software.
     * If you are using Linux, use "sshfs" command.
-
 * Login info:
     * address: euler.ethz.ch
     * login: your NETHZ login
     * password: your NETHZ password
+* You need to be inside the ETH network to connect (or use the VPN)
 
 ## MATLAB Example
 
@@ -87,6 +90,7 @@ bkill       kill a job
 * https://ch.mathworks.com/help/distcomp/index.html - MATLAB parallel computing
 * https://scicomp.ethz.ch/wiki/MATLAB - EULER documentation for MATLAB
 * https://scicomp.ethz.ch/wiki/Comsol - EULER documentation for COMSOL
+* https://scicomp.ethz.ch/wiki/Euler_applications - EULER installed software
 * cluster-support@id.ethz.ch - EULER support (very competent)
 
 ## Author
