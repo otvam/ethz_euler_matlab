@@ -56,9 +56,9 @@
 
 ## MATLAB Example
 
-1. Copy the folder "euler_code" to EULER (using the mapped network drive)
+1. Copy the folder "euler_matlab_example" to EULER (using the mapped network drive)
 2. Get a remote console on the EULER login node (using the SSH software)
-3. Go the corresponding directory: "cd euler_code"
+3. Go the corresponding directory: "cd euler_matlab_example"
 4. Make the EULER submission script executable: "chmod +x run_main.sh"
 5. Submit the job: "./run_main.sh tag"
     * Change the data in "run_main.sh" do change the job detail (CPU, RAM, time, etc.)
