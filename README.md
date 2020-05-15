@@ -1,14 +1,6 @@
-===========================================================================
-Tutorial for the EULER cluster with MATLAB
-===========================================================================
+# Tutorial for the EULER cluster with MATLAB
 
-14.05.2019
-Thomas Guillod
-PES ETHZ
-
-=================================================
-Advantages of EULER vs. the PES server
-=================================================
+## Advantages of EULER vs. the PES server
 
 - Professionally managed high performance computing cluster
 - Computing power is much higher
@@ -17,9 +9,7 @@ Advantages of EULER vs. the PES server
 - Usable with MATLAB and COMSOL (and many more other softwares)
 - A lot of different version of the softwares are available
 
-=================================================
-Differences between EULER vs. the PES server
-=================================================
+## Differences between EULER vs. the PES server
 
 - EULER is a batching system:
     - You say: "I have a job and I want x CPUs with y GB of RAM for z hours"
@@ -31,9 +21,7 @@ Differences between EULER vs. the PES server
     - No GUI for COMSOL
 	- If you are an advanced user, GUI is possible with X11 forwarding
 
-=================================================
-Install software
-=================================================
+## Install software
 
 If you are using MS Windows:
     - Putty: https://www.putty.org/
@@ -43,9 +31,7 @@ Linux:
     - Install "ssh" (install the package)
 	- Install "sshfs" (install the package)
 
-=================================================
-SSH console to the login node
-=================================================
+## SSH console to the login node
 
 Remote access to the cluster (to start the job, get the results, etc.)
     - If you are using MS Windows, use "putty" software.
@@ -56,9 +42,7 @@ Login info:
     - login: your NETHZ login
     - password: your NETHZ password
 
-=================================================
-Map you EULER drive as a network drive
-=================================================
+## Map you EULER drive as a network drive
 
 Mount the EULER filesystem as a remote drive.
     - If you are using MS Windows, use "SFTP Drive v2" software.
@@ -69,9 +53,7 @@ Login info:
     - login: your NETHZ login
     - password: your NETHZ password
 
-=================================================
-MATLAB Example
-=================================================
+## MATLAB Example
 
 1) Copy the folder "euler_code" to EULER (using the mapped network drive)
 
@@ -91,9 +73,7 @@ MATLAB Example
 
 7) Copy the results (using the mapped network drive)
 
-=================================================
-Command Description
-=================================================
+## Command Description
 
 - bsub        submit a job
 - module      load modules (MATLAB, COMSOL, etc.)
@@ -106,9 +86,7 @@ Command Description
 - lsf_load    show the CPU load of all nodes used by a job
 - bkill       kill a job
 
-=================================================
-More Information
-=================================================
+## More Information
 
 - https://scicomp.ethz.ch - EULER documentation
 - https://scicomp.ethz.ch/lsf_submission_line_advisor/ - script for generating EULER commands
@@ -117,4 +95,10 @@ More Information
 - https://scicomp.ethz.ch/wiki/Comsol - EULER documentation for COMSOL
 - cluster-support@id.ethz.ch - EULER support (very competent)
 
-===========================================================================
+## Author
+
+**Thomas Guillod** - [GitHub Profile](https://github.com/otvam)
+
+## License
+
+This project is licensed under the **BSD License**, see [LICENSE.md](LICENSE.md).
