@@ -11,7 +11,7 @@
 
 ## Differences between EULER vs. a powerful workstation/server
 
-* EULER is a batching system:
+* EULER is a batching system
     * You say: "I have a job and I want x CPUs with y GB of RAM for z hours"
     * You submit your job and it goes in a waiting queue
     * When it is your turn, your job is being processed
