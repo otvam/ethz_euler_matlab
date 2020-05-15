@@ -15,8 +15,7 @@
     * You say: "I have a job and I want x CPUs with y GB of RAM for z hours"
     * You submit your job and it goes in a waiting queue
     * When it is your turn, your job is being processed
-
-* EULER does not support GUI:
+* EULER does not support GUI
     * No plots in your MATLAB code
     * No GUI for COMSOL
     * If you are an advanced user, GUI is possible with X11 forwarding
@@ -26,7 +25,6 @@
 * For MS Windows users:
     * Putty: https://www.putty.org/
     * SFTP Drive v2: https://www.nsoftware.com/sftp/drive/
-
 * For Linux users:
     * Install "ssh" (install the package)
     * Install "sshfs" (install the package)
