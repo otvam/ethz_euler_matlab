@@ -62,9 +62,9 @@
 4. Make the EULER submission script executable: "chmod +x run_main.sh"
 5. Submit the job: "./run_main.sh tag"
     * Change the data in "run_main.sh" do change the job detail (CPU, RAM, time, etc.)
-    * put your MATLAB code in "run_solve.m", "tag" is an string argument for MATLAB
+    * Put your MATLAB code in "run_solve.m", "tag" is an string argument for MATLAB
 6. Wait that the job is finished
-    * check the status of the jobs: "bjobs" or "bbjobs"
+    * Check the status of the jobs: "bjobs" or "bbjobs"
     * You will get an email when the job starts, finishes, or crashes
 7. Copy the results (using the mapped network drive)
 
