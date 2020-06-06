@@ -8,7 +8,7 @@
 * **Reliability** is much higher
 * You are not competing with other people for the ressources
 * Usable with Python, MPI, MATLAB, COMSOL, Maxwell (and many more other softwares)
-* A lot of different version of the softwares are available
+* A lot of different versions of the softwares are available
 
 ## Differences between EULER vs. a powerful workstation/server
 
@@ -56,13 +56,19 @@
 
 ## MATLAB parallel code example
 
+* **run_main.sh** - Bash script for submitting the job to EULER
+* **run_main.m** - Main MATLAB function (start parallel pool, run the code, close parallel pool)
+* **run_solve.m** - MATLAB function containg the problem to be solved
+
 1. Copy the folder "euler_matlab_example" to EULER (using the mapped network drive)
 2. Get a remote console on the EULER login node (using the SSH software)
 3. Go the corresponding directory: "cd euler_matlab_example"
 4. Make the EULER submission script executable: "chmod +x run_main.sh"
 5. Submit the job: "./run_main.sh tag"
     * Change the data in "run_main.sh" do change the job detail (CPU, RAM, time, etc.)
-    * Put your MATLAB code in "run_solve.m", "tag" is an string argument for MATLAB
+    * Put your MATLAB code in "run_solve.m"
+	* The string argument ("tag") defines the job name
+	* The string argument ("tag") is passed to the MATLAB script
 6. Wait that the job is finished
     * Check the status of the jobs: "bjobs" or "bbjobs"
     * You will get an email when the job starts, finishes, or crashes
