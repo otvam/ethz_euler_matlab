@@ -8,7 +8,7 @@
 # to run the script:
 #     - execute "chmod +x run_main.sh"
 #     - execute "./run_main.sh tag"
-#     - the arguement "tag" is passed to the MATLAB code
+#     - the argument "tag" is passed to the MATLAB code
 #
 ############################################################################
 
