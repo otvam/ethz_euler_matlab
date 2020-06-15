@@ -1,4 +1,4 @@
-# Tutorial for the ETHZ EULER cluster with MATLAB
+# Tutorial for the ETHZ EULER Cluster with MATLAB
 
 ## Advantages of EULER vs. a powerful workstation/server
 
