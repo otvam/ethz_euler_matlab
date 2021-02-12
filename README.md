@@ -25,7 +25,6 @@
 
 * For MS Windows users:
     * Putty: https://www.putty.org/
-    * SFTP Drive v2: https://www.nsoftware.com/sftp/drive/
 	* WinSCP: https://winscp.net/eng/
 * For Linux users:
     * Install "ssh" (install the package)
