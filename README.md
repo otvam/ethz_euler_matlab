@@ -1,5 +1,10 @@
 # Tutorial for the ETHZ EULER Cluster with MATLAB
 
+![license - BSD](https://img.shields.io/badge/license-BSD-green)
+![language - bash](https://img.shields.io/badge/language-bash-blue)
+![category - science](https://img.shields.io/badge/category-science-lightgrey)
+![status - unmaintained](https://img.shields.io/badge/status-unmaintained-red)
+
 ## Advantages of EULER vs. a powerful workstation/server
 
 * Professionally managed **high performance computing cluster**
