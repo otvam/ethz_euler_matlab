@@ -21,10 +21,10 @@
     * You say: "I have a job and I want x CPU cores with y GB of RAM for z hours"
     * You submit your job and it goes in a waiting queue
     * When it is your turn, your job is being processed
-* EULER does not support GUI
-    * No plots for MATLAB, Python, etc.
-    * No GUI for COMSOL, Maxwell, etc.
-    * If you are an advanced user, GUI is possible with X11 forwarding
+* EULER limitations
+    * Euler is not meant for interactive softwares
+    * Euler is not meant for GUIs (however X11 forwarding is possible)
+    * Plots should be rendered directly to files
 
 ## Install software
 
@@ -44,7 +44,7 @@
     * address: euler.ethz.ch
     * login: your NETHZ login
     * password: your NETHZ password
-* If you are an advanced user, you can replace the password with SSH keys
+* If you are an advanced user, you can replace add SSH keys for the login
 * You need to be inside the ETH network to connect (or use the VPN)
 
 ## Map you EULER drive as a network drive
